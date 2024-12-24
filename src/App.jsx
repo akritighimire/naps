@@ -6,6 +6,8 @@ import Login from "./pages/Login";
 import LandingPage from "./pages/LandingPage";
 import Register from "./pages/Register";
 
+// import Landingpage2 from "./pages/LandingPage2";
+
 function App() {
   return (
     // <>
@@ -24,6 +26,7 @@ function App() {
         <Route path="/*" element={<  LandingPage/>} />  
     </Routes>
     </BrowserRouter>
+    
   );
 }
 

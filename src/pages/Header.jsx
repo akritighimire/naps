@@ -1,4 +1,5 @@
 import logo from "../assets/logo.png";
+import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <>
@@ -18,7 +19,7 @@ const Header = () => {
             <a href="#">About Us</a>
             <a href="#">Contact Us</a>
             <button>
-              <a href="#">Register</a>
+              <Link to="/register" >Register</Link>
             </button>
           </nav>
         </header>
